@@ -7,18 +7,57 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
   <link rel="shortcut icon" href="./imagenes/NasaLogo.png" type="image/x-icon">
-  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./img/logoNasa.png" type="image/x-icon">
+  <title>Nasa</title>
 </head>
 <body>
   <header>
-<h1>Bienvenido</h1>
+
   </header>
   <main>
-
+    <section>
+      <div class="container-fluid">
+          <div class="container-fluid">
+            <div div class="row p-1">
+              <div class="col-12 col-md-5 col-lg-3  date ">
+                <h3 class="tituloCardDia">IMAGEN DEL DIA</h3>
+              </div>
+              <div class="col-12 col-md-3 col-lg-3  date ">
+                <input class="form-control my-1" type="date" value="2023-02-08" id="date">
+              </div>
+              <div class="col-12 col-md-2 col-lg-3 btnSerch">
+                <button class="btnSer btn btn-warning my-1" type="submit" id="serch">Buscar</button>
+              </div>
+              <div class="col-12 col-md-2 col-lg-3  btnSerch">
+                <button class="btnSer btn btn-warning my-1" type="submit" id="volver">Inicio</button>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="container-fluid mt-3">
+        <div class="card mb-3" id="card">
+          <div class="row g-0">
+            <div class="col-lg-7">
+              <img src="./img/space.jpg" class="cardImg img-fluid rounded-start" alt="space">
+            </div>
+            <div class="col-lg-5">
+              
+              <div class="card-body">
+                <h3 class="card-title text-center">Bienvenido</h3>
+                <p class="card-text mt-3">Ingrese una fecha para poder ver esta colección de fotografías de la agencia
+                  espacial estadounidense, todos los dias habra una fotografía nueva </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
   <footer>
 
   </footer>
+  <script src="./app.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
