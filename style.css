@@ -1,3 +1,54 @@
+/*---------- NAVBAR -------------*/
+
+
+.navbtn{
+  color: wheat;
+  margin-inline: 20px;
+  background: url(./img/btnUno.jpeg) center;
+  background-size: cover;
+  border-radius: 5px;
+  border-color: red ;
+  padding: 15px 10px 15px 10px;
+  font-weight: bold;
+}
+
+.navbtnDos {
+  
+    color:wheat;
+    margin-inline: 20px;
+    background: url(./img/btnTres.jpeg) center;
+    background-size: cover;
+    border-radius: 5px;
+    border-color: red ;
+    padding: 15px 10px 15px 10px;
+    font-weight: bold;
+  
+}
+
+.navbtnTres{
+  color: wheat;
+  margin-inline: 20px;
+  background: url(./img/btnDos.jpeg) center;
+  background-size: cover;
+  border-radius: 5px;
+  border-color: red ;
+  padding: 15px 10px 15px 10px;
+  font-weight: bold;
+}
+
+.navbtnCuatro {
+  
+    color: wheat;
+    margin-inline: 20px;
+    background: url(./img/btnCuatro.jpeg) center;
+    background-size: cover;
+    border-radius: 5px;
+    border-color: red ;
+    padding: 15px 10px 15px 10px;
+    font-weight: bold;
+  
+}
+
 /*---------- CARD DEL DIA -------------*/
 body{
   background: url(./img/fondosDos.jpg) no-repeat fixed center;
