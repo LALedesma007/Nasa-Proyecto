@@ -75,7 +75,7 @@ if (validarUser === null) {
             color:'#FDFEFE',
             background:'#D35400'
           })
-      window.location.href="/indexPagina.html";
+      window.location.href="/index.html";
     }
 }
     

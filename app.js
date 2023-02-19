@@ -33,4 +33,17 @@ const reiciciarCard = () =>{
   boton.addEventListener(("click") , crearCard)
   inicio.addEventListener(("click"), reiciciarCard)
 
-//----------------------------------------------//
+// --------- CERRAR SECCION  ------------//
+
+if (!localStorage.getItem("userlog")) {
+  window.location="./html/login.html"
+}
+
+const cerrarSeccion = document.getElementById("cerrar")
+
+const salirSeccion = () =>{
+  localStorage.removeItem("userlog")
+  window.location = "./html/login.html"
+}
+
+cerrarSeccion.addEventListener("click", salirSeccion)
