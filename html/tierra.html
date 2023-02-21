@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/tierra.css".css">
+  <title></title>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg p-3 bg-black">
+      <div class="container-fluid  d-flex">
+        <a class="navbar-brand" href="#"><img src="/img/logoNasaDos1.png" width="150px" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav ">
+            <li class="nav-item mt-5 mt-lg-0">
+              <a class="navbar-brand navbtn textoNav active" aria-current="page" href="/index.html">Regresar</a>
+            </li>
+            <li class="nav-item mt-5 mt-lg-0">
+              <a class="navbar-brand navbtn textoNav active" aria-current="page" href="/html/cardMarte.html">Explora Marte</a>
+            </li>
+            <li class="nav-item mt-5 mt-lg-0">
+              <a class="navbar-brand navbtnDos textoNav active" aria-current="page" href="/html/tierra.html">La Tierra</a>
+            </li>
+            <li class="nav-item mt-5 mt-lg-0">
+              <a class="navbar-brand navbtnTres textoNav active" aria-current="page" href="#">Contactos</a>
+            </li>
+            <li class="nav-item mt-5 mt-lg-0 pb-1">
+              <a class="navbar-brand navbtnCuatro textoNav active" aria-current="page" id="cerrar" href="./html/login.html">Cerrar Sesión</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+  <section>
+  <div class="container-fluid">
+  <div class="container-fluid form-control mt-5 bg-black">
+    <div class="row p-3">
+      <div class="col-12 col-md-6 col-lg-2" >
+        <input type="number" class="ingresar form-control my-1" placeholder="Longitud: -95.33" id="lon">
+      </div>
+      <div class="col-12 col-md-6 col-lg-2">
+        <input type="number" class="ingresar form-control my-1" placeholder="Latitud: 29.78" id="lat">
+      </div>
+      <div class="col-12 col-md-6 col-lg-2">
+        <input type="number" class="ingresar form-control my-1" placeholder="Imagen en grado: 0.10" id="grado">
+      </div>
+      <div class="col-12 col-md-6 col-lg-2">
+        <input type="date" class="ingresar form-control my-1" placeholder="2018-01-01" id="fecha">
+      </div>
+      <div class="col-12 col-md-12 col-lg-4">
+        <button class="btnSer btn btn-warning my-1" type="button"  id="serch">Buscar</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="container-fluid mt-3">
+    <div class="card mb-3" id="card">
+      <div class="row">
+        <div class="col-lg-8">
+          <img src="/img/tierra.jpg" class="cardImg img-fluid rounded-start" alt="Tierra">
+        </div>
+        <div class="col-lg-4">
+          <div class="card-body ">
+            <h3 class="card-title text-center">Tierra</h3>
+            <p class="card-text mt-3">Las imágenes de Landsat se proporcionan al público como un proyecto conjunto entre la NASA y el USGS. Un informe reciente de la industria sobre datos de imágenes satelitales Landsat estima que el valor anual total para la economía es de $ 2.19 mil millones, superando con creces el costo total de varios años de construcción, lanzamiento y administración de sensores y satélites Landsat. El valor se deriva del uso de los datos por parte de los consumidores. El objetivo de este punto final es darle una idea fácil de usar de lo que pueden proporcionar los datos de imágenes de Landsat</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>  
+  </main>
+  <footer>
+    <Section>
+      <div class="container-fluid bg-black">
+        <div class="row">
+          <div class="col-md-3 col-lg-2">
+            <img class="logoNasaFooter" src="/img/logoNasa.png" alt="nasa">
+          </div>
+          <div class="col-md-3 col-lg-2 mt-2">
+            <div>
+              <h3 class="tituloFooter">Siguenos</h3>
+            </div>
+            <div class="row">
+              <div class="col-1 col-md-2 col-lg-2">
+                <a href="https://github.com/nasa/nasa.github.io/blob/master/docs/INSTRUCTIONS.md"><img class="socialUno"
+                    src="/img/git.png" alt="github"></a>
+              </div>
+              <div class="col-1  col-md-2 col-lg-2">
+                <a href="https://www.instagram.com/nasaearth/"><img class="socialDos" src="/img/instagram.png" alt="instagram"></a>
+              </div>
+              <div class="col-1 col-md-2 col-lg-2">
+                <a href="https://www.facebook.com/nasaearth?mibextid=ZbWKwL"><img class="socialTres" src="/img/facebook.png"
+                    alt="facebook"></a>
+              </div>
+              <div class="col-1 col-md-2 col-lg-2">
+                <a href="https://twitter.com/NASAEarth?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img
+                    class="socialCuatro" src="/img/twitter.png" alt="twitter"></a>
+              </div>
+              <div class="col-1 col-md-2 col-lg-2">
+                <a href="https://www.linkedin.com/company/nasa/"><img class="socialCinco" src="/img/linkedin.png" alt="linkedin"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-lg-2 mt-2">
+            <h3 class="tituloFooter">Aplicación</h3>
+            <div class="col-lg-12">
+              <a href="https://play.google.com/store/apps/details?id=gov.nasa"><img class="play" src="/img/googlePlay.png"alt="googlePlay"></a>
+          </div>
+        </div>
+        <div class="col-12 col-md-3 col-lg-3 mt-2">
+          <h3 class="tituloFooter">Oficina de información</h3>
+              <div class="row">
+                <div class="col-12 col-md-12 col-lg-12">
+                  <img class="socialSeis" src="/img/Gmail.png" alt="Gmail">
+                  <a class="mail" href=mailto:nasa-data@lists.arc.nasa.gov>nasa-data@lists.arc.nasa.gov</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-12 col-lg-3 mt-2">
+          <h3 class="tituloFooter">Nosotros</h3>
+              <div class="row">
+                <div class=" col-md-12 col-lg-12">
+                  <img class="socialSiete" src="/img/coffee.png" alt="Gmail">
+                  <a class="nosotros" href="#">Equipo Cafe y Práctica</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="col-md-12 col-lg-12 text-center">
+            <h6 class="tituloCopy">&copy;Copyright - 2023</h6>
+          </div>
+        </div>
+      </div>
+    </Section>
+  </footer>
+  <script src="/javascript/tierra.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
