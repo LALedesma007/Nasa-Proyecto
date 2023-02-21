@@ -34,7 +34,7 @@ const getData = async () => {
       const cards = document.getElementById("containerCard")
     const data = await getData()
     const card = data.map(info =>
-      `<div class="card  m-2 col-sm-12  col-lg-2 p-0 border-0" >
+      `<div class="card   col-10 col-md-3 col-lg-2 m-2 p-0 border-0" >
            <img src="${info.img_src}"class="imagen rounded-top" alt="Marte">
         <div class="card  border-0">
            <div class="card  border-0">
