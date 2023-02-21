@@ -4,7 +4,7 @@
 .navbtn{
   color: wheat;
   margin-inline: 20px;
-  background: url(./img/btnUno.jpeg) center;
+  background: url(/img/btnUno.jpeg) center;
   background-size: cover;
   border-radius: 5px;
   border-color: red ;
@@ -16,7 +16,7 @@
   
     color:wheat;
     margin-inline: 20px;
-    background: url(./img/btnTres.jpeg) center;
+    background: url(/img/btnTres.jpeg) center;
     background-size: cover;
     border-radius: 5px;
     border-color: red ;
@@ -28,7 +28,7 @@
 .navbtnTres{
   color: wheat;
   margin-inline: 20px;
-  background: url(./img/btnDos.jpeg) center;
+  background: url(/img/btnDos.jpeg) center;
   background-size: cover;
   border-radius: 5px;
   border-color: red ;
@@ -40,7 +40,7 @@
   
     color: wheat;
     margin-inline: 20px;
-    background: url(./img/btnCuatro.jpeg) center;
+    background: url(/img/btnCuatro.jpeg) center;
     background-size: cover;
     border-radius: 5px;
     border-color: red ;
@@ -49,29 +49,12 @@
   
 }
 
-/*---------- CARD DEL DIA -------------*/
+/*-----------IMAGENES DE LA TIERRA -----------*/
+
 body{
-  background: url(./img/fondosDos.jpg) no-repeat fixed center;
-  background-size:cover;
-  height: 100vh;
-  width: 100%;
+  background-image: url(/img/fondo.jpg);
 }
 
-@media (max-width:280px){
-  body{
-    background: url(./img/fondosDos.jpg) no-repeat fixed;
-    height: 100vh;
-    width: 100%;
-  }
-}
-
-@media (max-width:414px){
-  body{
-    background: url(./img/fondosDos.jpg) no-repeat fixed;
-    height: 100vh;
-    width: 100%;
-  }
-}
 
 .btnSer{
   width: 100%;
@@ -81,24 +64,6 @@ body{
  width: 100%;
  min-height:100px;
  max-height: 500px;
-}
-.tituloCardDia{
- display: flex;
- color: white;
- background: url(./img/btnCinco.jpg) center no-repeat;
- margin-top: 5px;
- font-weight: bold;
- font-family: sans-serif;
- border-radius: 5px;
- justify-content: center;
- padding: 1px 0px 1px 0px;
-}
-/*------------------CARD MAIN---------------------*/
-.cardcss {
-  background: none;
-  padding: 10px;
-  color: white;
-  border: none;
 }
 
 /*--------------FOOTER-------------*/
