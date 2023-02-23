@@ -48,6 +48,16 @@
     font-weight: bold;
   
 }
+.navbtncinco {
+  color: wheat;
+    margin-inline: 20px;
+    background: url(./img/btnCinco.jpg) center;
+    background-size: cover;
+    border-radius: 5px;
+    border-color: red ;
+    padding: 15px 10px 15px 10px;
+    font-weight: bold;
+}
 
 /*---------- CARD DEL DIA -------------*/
 body{
