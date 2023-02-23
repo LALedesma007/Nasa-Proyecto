@@ -69,12 +69,11 @@ body{
     color: aliceblue;
   }
   .titulo {
-    color: white;
     display: flex;
     justify-content: center;
     top: 50%;
     left: 50%;
-    font-size: 65px;
+    font-size: 40px;
   }
   
   @media (max-width: 280px) {
@@ -91,7 +90,6 @@ body{
   
   @media (max-width: 414px) {
     .titulo {
-      color: white;
       display: flex;
       justify-content: center;
       top: 50%;
@@ -126,4 +124,81 @@ body{
   .formulario {
     padding: 15px;
     color: white;
+    
   }
+
+  /*--------------FOOTER-------------*/
+
+.tituloFooter{
+  font-size: 15px;
+  color: grey;
+}
+
+.tituloCopy{
+  color: grey;
+  font-size: 10px;
+}
+
+.logoNasaFooter{
+  width: 120px;
+}
+.socialUno{
+  width: 30px;
+  margin-top: 6px;
+}
+
+.socialDos{
+  width: 30px;
+  margin-top: 6px;
+}
+
+.socialTres{
+  width: 30px;
+  margin-top: 6px;
+}
+
+.socialCuatro{
+  width: 30px;
+  margin-top: 6px;
+}
+
+.socialCinco{
+  width: 30px;
+  margin-top: 6px;
+}
+
+.socialSeis{
+  width: 30px;
+}
+
+.socialSiete{
+  width: 37px;
+}
+
+.play{
+  width: 100px;
+}
+.mail{
+  text-decoration: none;
+}
+
+.nosotros{
+  text-decoration: none;
+}
+
+
+@media (max-width:280px){
+  .socialDos{
+    margin-left: 15px;
+  } 
+  .socialTres{
+    margin-left: 30px;
+  } 
+  .socialCuatro{
+    margin-left: 45px;
+  } 
+  .socialCinco{
+    margin-left: 60px;
+  }
+ 
+}
