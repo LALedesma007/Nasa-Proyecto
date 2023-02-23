@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,7 +15,7 @@
   <header>
   <nav class="navbar navbar-expand-lg p-3 bg-black">
     <div class="container-fluid  d-flex">
-      <a class="navbar-brand" href="#"><img src="./img/logoNasaDos1.png" width="150px" alt=""></a>
+      <a class="navbar-brand" href="#"><img src="./img/logoNasaDos1.png" width="150px" alt="logo"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -31,9 +31,6 @@
             <a class="navbar-brand navbtnTres textoNav active" aria-current="page" href="/html/contacto.html">Contactos</a>
           </li>
           <li class="nav-item mt-5 mt-lg-0 pb-1">
-            <a class="navbar-brand navbtncinco textoNav active" aria-current="page" href="#">Acerca de Nosotros</a>
-          </li>
-          <li class="nav-item mt-5 mt-lg-0 pb-1">
             <a class="navbar-brand navbtnCuatro textoNav active" aria-current="page" id="cerrar" href="./html/login.html">Cerrar Sesión</a>
           </li>
         </ul>
@@ -42,6 +39,298 @@
   </nav>
   </header>
   <main>
+    <section>
+      <div class="carrusel">
+        <div class="carruselItems" id="carrusel">
+          <div class="carruselItem">
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#uno"><img src="./imgCarrusel/rover.jpg"></button>
+          </div>
+          <div class="carruselItem">
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#dos"><img src="./imgCarrusel/rover2.jpg"></button>
+          </div>
+          <div class="carruselItem">
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#tres"><img src="./imgCarrusel/rover3.jpg"></button>
+          </div>
+          <div class="carruselItem">
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#cuatro"><img src="./imgCarrusel/rover4.jpg"></button>
+          </div>
+          <div class="carruselItem">
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#cinco"><img src="./imgCarrusel/rover5.jpeg"></button>
+          </div>
+          <div class="carruselItem">
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#seis"><img src="./imgCarrusel/rover6.jpg"></button>
+          </div>
+          <div class="carruselItem">
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#siete"><img src="./imgCarrusel/rover7.jpeg"></button>
+          </div>
+          <div class="carruselItem">
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#ocho"><img src="./imgCarrusel/est1.jpg"></button>
+          </div>
+          <div class="carruselItem">
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#nueve"><img src="./imgCarrusel/est2.jpg"></button>
+          </div>
+          <div class="carruselItem">
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#diez"><img src="./imgCarrusel/est3.jpg"></button>
+          </div>
+          <div class="carruselItem">
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#once"><img src="./imgCarrusel/est4.jpg"></button>
+          </div>
+          <div class="carruselItem">
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#doce"><img src="./imgCarrusel/lan1.jpg"></button>
+          </div>
+          <div class="carruselItem">
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#trece"><img src="./imgCarrusel/lan2.jpg"></button>
+          </div>
+          <div class="carruselItem">
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#catorce"><img src="./imgCarrusel/lan3.jpg"></button>
+          </div>
+        </div>
+        <div class="modal fade" id="uno" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-primary">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">El rover Curiosity de la NASA</h1>
+              </div>
+              <div class="modal-body">
+                <img src="./imgCarrusel/rover.jpg" class="card-img-top" alt="card">
+                <p>Tomó esta selfie el 11 de octubre de 2019, el día 2553 marciano, o sol, de su misión. El rover perforó dos veces en este lugar, apodado "Glen Etive" (pronunciado "glen EH-tiv"). A unos 300 metros (984 pies) detrás del rover, se eleva Vera Rubin Ridge. Detrás se encuentra el suelo del cráter Gale, que Curiosity está explorando, y
+                  el borde norte del cráter.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="dos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-primary">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Curiosidad estudio de roca marciana</h1>
+              </div>
+              <div class="modal-body">
+                <img src="./imgCarrusel/rover2.jpg" class="card-img-top" alt="card">
+                <p>Esta imagen en color falso demuestra cómo el uso de filtros especiales disponibles en la cámara de mástil (Mastcam)
+                  del rover Curiosity Mars puede revelar la presencia de ciertos minerales en las rocas objetivo..</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="tres" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-primary">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Mapa de mediados de 2017 de la misión</h1>
+              </div>
+              <div class="modal-body">
+                <img src="./imgCarrusel/rover3.jpg" class="card-img-top" alt="card">
+                <p>Este mapa muestra la ruta conducida por el rover Curiosity Mars de la NASA, desde el lugar donde aterrizó en 
+                  agosto de 2012 hasta su ubicación en julio de 2017 (Sol 1750), y su ruta planificada hacia capas geológicas adicionales del Monte Sharp inferior.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="cuatro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-primary">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Sitios de muestreo de roca o suelo</h1>
+              </div>
+              <div class="modal-body">
+                <img src="./imgCarrusel/rover4.jpg" class="card-img-top" alt="card">
+                <p>Este gráfico mapea las ubicaciones de los sitios donde el rover Curiosity Mars de la NASA recolectó sus primeras 18 muestras de roca o suelo para analizarlas con instrumentos de laboratorio dentro del vehículo.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="cinco" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-primary">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">La flota robótica </h1>
+              </div>
+              <div class="modal-body">
+                <img src="./imgCarrusel/rover5.jpeg" class="card-img-top" alt="card">
+                <p>Modelos de rover de la NASA está ahora en exhibición en el Museo Nacional del Aire y el Espacio en Washington DC.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="seis" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-primary">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Preparación de la réplica de Curiosity </h1>
+              </div>
+              <div class="modal-body">
+                <img src="./imgCarrusel/rover6.jpg" class="card-img-top" alt="card">
+                <p>El sábado por la mañana, 19 de enero de 2013, en la Base Conjunta Anacostia Bolling (JBAB) en Washington, Steve LaDrew, con Capitol Exhibit 
+                  Services, ajusta la Mastcam en una réplica del Mars Curiosity Rover. La carroza de la NASA participará en el desfile inaugural del lunes en 
+                  honor al presidente Barack Obama.            
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="siete" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-primary">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">El Laboratorio de Ciencias de Marte</h1>
+              </div>
+              <div class="modal-body">
+                <img src="./imgCarrusel/rover7.jpeg" class="card-img-top" alt="card">
+                <p>El Océano Atlántico proporciona un telón de fondo cuando el cohete United Launch Alliance Atlas V despeja la torre en el Space Launch Complex 41 en la Estación de la Fuerza Aérea de Cabo Cañaveral en Florida. Sellada dentro del carenado protector de la carga útil del cohete se encuentra la nave espacial Mars Science Laboratory (MSL) de la NASA, 
+                  que inicia un viaje interplanetario de 9 meses a Mart
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="ocho" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-primary">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">El astronauta de JAXA Koichi Wakata durante su segunda caminata espacia</h1>
+              </div>
+              <div class="modal-body">
+                <img src="./imgCarrusel/est1.jpg" class="card-img-top" alt="card">
+                <p>El astronauta de JAXA, Koichi Wakata, aparece en su Unidad de Movilidad Extravehicular, o traje espacial, durante su segunda caminata espacial.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="nueve" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-primary">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Estación espacial visita South Padre Island</h1>
+              </div>
+              <div class="modal-body">
+                <img src="./imgCarrusel/est2.jpg" class="card-img-top" alt="card">
+                <p>Mientras la Estación Espacial Internacional orbitaba sobre el Golfo de México el 19 de septiembre de 2022, el astronauta de la NASA Bob Hines capturó esta imagen de South Padre
+                  Island, una isla de barrera a lo largo de la costa de Texas.           
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="diez" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-primary">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">La nave de reabastecimiento ISS Progress 81</h1>
+              </div>
+              <div class="modal-body">
+                <img src="./imgCarrusel/est3.jpg" class="card-img-top" alt="card">
+                <p>La nave de reabastecimiento ISS Progress 81 de Roscosmos se muestra momentos después de desacoplarse del módulo de servicio Zvezda.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="once" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-primary">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">El brazo robótico Canadarm2</h1>
+              </div>
+              <div class="modal-body">
+                <img src="./imgCarrusel/est4.jpg" class="card-img-top" alt="card">
+                <p>El brazo robótico Canadarm2 arroja equipos de apoyo de vuelo hacia la atmósfera terrestre. </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="doce" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-primary">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Lanzamiento Artemis I</h1>
+              </div>
+              <div class="modal-body">
+                <img src="./imgCarrusel/lan1.jpg" class="card-img-top" alt="card">
+                <p>El cohete del Sistema de Lanzamiento Espacial de la NASA que transporta la nave espacial Orion se lanza en la 
+                  prueba de vuelo Artemis I, el miércoles 16 de noviembre de 2022, desde el Complejo de Lanzamiento 39B en el Centro Espacial Kennedy de la NASA en Florida.
+                  . </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="trece" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-primary">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">El sistema de lanzamiento espacial sale del VAB</h1>
+              </div>
+              <div class="modal-body">
+                <img src="./imgCarrusel/lan2.jpg" class="card-img-top" alt="card">
+                <p>El cohete del Sistema de Lanzamiento Espacial (SLS) de la NASA con la nave espacial Orion a bordo se ve encima de un lanzador móvil mientras sale del edificio de ensamblaje de vehículos hacia la plataforma de lanzamiento 39B, el martes 16 de agosto de 2022, 
+                  en el Centro Espacial Kennedy de la NASA en Florida. </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="catorce" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header bg-primary">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Dónde ver el despegue a la luna de la misión Artemis I
+                </h1>
+              </div>
+              <div class="modal-body">
+                <img src="./imgCarrusel/lan3.jpg" class="card-img-top" alt="card">
+                <p>Esta infografía etiquetada como "Artemis I: rango de visibilidad" muestra las áreas que podrían detectar a Artemis I después del despegue. El cohete del Sistema de Lanzamiento Espacial y la nave espacial Orion se pudieron ver a lo largo de la Costa Espacial hasta 70 segundos 
+                  después del despegue.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section>
     <section>
       <div class="container-fluid">
           <div class="container-fluid">

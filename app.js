@@ -47,3 +47,30 @@ const salirSeccion = () =>{
 }
 
 cerrarSeccion.addEventListener("click", salirSeccion)
+
+// --------- CONTROL DE MOVIMIENTO  ------------//
+
+const carrusel = document.querySelector(".carruselItems")
+ 
+let maxScrollLeft = carrusel.scrollWidth - carrusel.clientWidth // Esta resta da el scroll maximo que llega
+let intervalo = null
+let step = 0 // El numero del Step Controla la velocidad del carrusel  
+
+const start = () => {
+intervalo = setInterval(function(){
+carrusel.scrollLeft += step
+if (carrusel.scrollLeft === maxScrollLeft) {
+  step = -1 // cuando el maxScrollLeft llega al final el step se vuelve negativo y el carrusel regresa
+}else if (carrusel.scrollLeft === 0) {
+  step = 1
+}
+},10);
+}
+start();
+
+const stop = () =>{
+clearInterval(intervalo)
+}
+
+carrusel.addEventListener('mouseover', stop)
+carrusel.addEventListener("mouseout", start)
