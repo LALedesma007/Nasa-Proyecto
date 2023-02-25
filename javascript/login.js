@@ -3,7 +3,7 @@ const usuario = document.getElementById("userName");
 const contraseña  = document.getElementById("pas");
 
 const expresiones = {
-      usuario: /^[a-zA-Z0-9\_\-]{4,12}$/,
+      usuario: /^[a-zA-Z0-9\_\-]{4,20}$/,
       password: /^.{4,12}$/
     };
 const loginUsuario = (e) => {
@@ -63,8 +63,9 @@ if (validarUser === null) {
             position: 'top',
             color:'#FDFEFE',
             background:'#D35400'
-          }) 
-}else{
+          })
+          formRegister.reset();
+}else if (validarUser.find(user => user.usuarios === "Administrador").contraseñas !== contraseña.value) {
       localStorage.setItem("userlog", JSON.stringify("user"))
       Swal.fire({
             icon: 'success',
@@ -76,7 +77,20 @@ if (validarUser === null) {
             background:'#D35400'
           })
       window.location.href="/index.html";
+      }else{
+      localStorage.setItem("userlog", JSON.stringify("user"))
+      Swal.fire({
+            icon: 'success',
+            title: 'Alerta',
+            text: 'Bienvenido',
+            width: '250px',
+            position: 'top',
+            color:'#FDFEFE',
+            background:'#D35400'
+          })
+      window.location.href="/administrador.html";
     }
+
 }
     
 
